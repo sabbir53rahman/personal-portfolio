@@ -32,7 +32,7 @@ body{
     padding-bottom:40px;
     color: dimgray;
 }
-h1 span{
+span{
     color:orange;
     
 }
@@ -63,4 +63,47 @@ h1 span{
     background-position: right;
     height:100vh;
 
+}
+
+h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+p{
+    line-height:30px;
+    letter-spacing: 1px;
+    padding-bottom:40px;
+    color: dimgray; 
+}
+.left_exper{
+    box-shadow: 10px 10px 40px gray;
+    border-radius:5px;
+    height:70%;
+}
+.left_exper h2{
+    padding-top:30px;
+}
+.right_exper{
+    box-shadow: 10px 10px 40px gray;
+    border-radius:5px;
+    height:70%;
+}
+.right_exper h2{
+    padding-top:30px;
+}
+.experience_area{
+    height: 70vh;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#full_stack_web{
+    border-image: linear-gradient( 180deg, lightsalmon,tomato);
+    border-left:7px solid; 
+    border-image-slice: 1;
+}
+#baby_web{
+    border-image: linear-gradient( 180deg, blue,cyan);
+    border-left:7px solid; 
+    border-image-slice: 1;
 }
