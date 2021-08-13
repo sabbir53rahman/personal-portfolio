@@ -107,3 +107,6 @@ p{
     border-left:7px solid; 
     border-image-slice: 1;
 }
+.footer_section{
+    text-align:center;
+}
